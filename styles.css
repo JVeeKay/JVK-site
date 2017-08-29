@@ -138,6 +138,10 @@ h1 {
       float: left;
       text-align: center;
       position: relative; }
+      @media screen and (max-width: 540px) {
+        #projects .thumb-container .thumb-unit {
+          width: 100%;
+          float: none; } }
       #projects .thumb-container .thumb-unit img {
         display: block;
         width: 100%;
@@ -176,6 +180,7 @@ h1 {
     position: relative; }
     #testimonials .clients-belt .clients-unit {
       display: flex;
+      flex-wrap: wrap;
       max-width: 750px;
       margin: 0 auto;
       padding: 30px; }
@@ -197,7 +202,7 @@ h1 {
         font-size: 22px;
         line-height: 36px;
         font-weight: 300;
-        margin-top: -30px; }
+        margin-top: -20px; }
       #testimonials .clients-belt .clients-unit .quotes {
         font-size: 26px;
         color: rgba(0, 0, 0, 0.7); }

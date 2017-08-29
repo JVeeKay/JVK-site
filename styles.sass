@@ -185,6 +185,10 @@ h1
             text-align: center
             position: relative
             
+            @media screen and (max-width: 540px)
+                width: 100%
+                float: none
+            
             img
                 display: block
                 width: 100%
@@ -231,9 +235,11 @@ h1
         
         .clients-unit
             display: flex
+            flex-wrap: wrap
             max-width: 750px
             margin: 0 auto
             padding: 30px
+            
             
             
             .client-img
@@ -259,7 +265,8 @@ h1
                 font-size: 22px
                 line-height: 36px
                 font-weight: 300
-                margin-top: -30px
+                margin-top: -20px
+                
                 
                   
             .quotes
