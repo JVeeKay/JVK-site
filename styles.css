@@ -5,7 +5,7 @@ body {
 
 header {
   height: 450px;
-  background: url("assets/img/drip-copy.jpg") center center;
+  background: url("assets/img/john-paul-summers-261250.jpg") center center;
   background-size: cover; }
   header .logo {
     height: 50px;
@@ -203,8 +203,17 @@ h1 {
         color: rgba(0, 0, 0, 0.7); }
 
 #contact {
-  background: #999;
-  color: #333; }
+  background: url("assets/img/drip-copy.jpg") center center;
+  background-size: cover;
+  color: #eee; }
+  #contact:after #contact {
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.9); }
   #contact h3 {
     font-weight: 700;
     font-size: 14px;
@@ -216,11 +225,11 @@ h1 {
     text-align: center;
     font-size: 45px;
     padding-bottom: 20px;
-    border-bottom: 4px solid #333;
+    border-bottom: 4px solid #eee;
     width: 300px;
     margin: auto; }
     #contact .links a {
-      color: #333; }
+      color: #eee; }
       #contact .links a i {
         margin: 10px; }
   #contact .question {
@@ -258,8 +267,7 @@ h1 {
 
 footer {
   height: 150px;
-  background: url("assets/img/drip-copy.jpg") center center;
-  background-size: cover; }
+  background-color: #5D1716; }
   footer .lockup {
     padding: 40px 30px;
     clear: both; }

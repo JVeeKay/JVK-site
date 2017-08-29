@@ -16,7 +16,7 @@ body
 
 header
     height: 450px
-    background: url('assets/img/drip-copy.jpg') center center
+    background: url('assets/img/john-paul-summers-261250.jpg') center center
     background-size: cover
     
     .logo
@@ -268,8 +268,21 @@ h1
 
        
 #contact
-    background: #999
-    color: $accent
+    background: url('assets/img/drip-copy.jpg') center center
+    background-size: cover
+    color: $bg
+    &:after 
+        content: ' '
+        position: absolute
+        left: 0
+        right: 0
+        top: 0
+        bottom: 0
+        background-color: rgba(0,0,0,0.3)
+    
+    
+    
+    
     h3
         font:
             weight: 700
@@ -284,12 +297,12 @@ h1
         text-align: center
         font-size: 45px
         padding-bottom: 20px
-        border-bottom: 4px solid $accent
+        border-bottom: 4px solid $bg
         width: 300px
         margin: auto
     
         a
-            color: $accent
+            color: $bg
             i
                 margin: 10px
                 
@@ -303,6 +316,7 @@ h1
         max-width: 450px
         margin: 0 auto
         padding-bottom: 70px
+        
         
         input, textarea
             border: 2px solid $accent-light
@@ -342,10 +356,8 @@ h1
                 
 footer
     height: 150px
-    background: url('assets/img/drip-copy.jpg') center center
-    background-size: cover
-    
-    
+    background-color: #5D1716
+   
     .lockup
         padding: 40px 30px
         clear: both
