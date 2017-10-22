@@ -8,9 +8,9 @@ header {
   background: url("assets/img/john-paul-summers-261250.jpg") center center;
   background-size: cover; }
   header .logo {
-    height: 50px;
-    width: 50px;
-    background-image: url("assets/img/CircleStar.png");
+    height: 75px;
+    width: 75px;
+    background-image: url("assets/img/StarLogo-2.png");
     background-size: cover;
     float: left;
     margin: 20px 0 0 30px; }
@@ -272,9 +272,9 @@ footer {
     padding: 40px 30px;
     clear: both; }
     footer .lockup .logo {
-      height: 50px;
-      width: 50px;
-      background-image: url("assets/img/CircleStar.png");
+      height: 60px;
+      width: 60px;
+      background-image: url("assets/img/StarLogo-2.png");
       background-size: cover;
       float: left; }
     footer .lockup .content-wrap {
